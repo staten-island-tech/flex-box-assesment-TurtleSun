@@ -8,8 +8,19 @@ $color:(
     @return map-get($colors, $colors-name);
 }
 
+.html{
+    font-size: 100%;
+    text-transform: uppercase;
+    padding: 0rem;
+    margin: 3rem auto;
+}
+
 .flex-parent-1{    
     flex-direction: column-reverse;
     justify-content: space-evenly;
     display: flex;
+}
+.flex-child{
+    margin: 25rem;
+
 }
