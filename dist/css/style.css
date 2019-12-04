@@ -1,1 +1,57 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+.flex-parent {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 3rem;
+}
+
+.pic {
+  height: 15rem;
+  width: auto;
+}
+
+#Ann {
+  height: rem;
+  width: auto;
+}
+
+.flex-child {
+  margin: 25rem;
+}
+
+html {
+  font-size: 100%;
+  text-transform: uppercase;
+  padding: 0rem;
+  margin: 3rem auto;
+}
+
+/*
+.flex-parent-1{    
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    display: flex;
+}
+.flex-child{
+    margin: 25rem;
+
+}
+$color:(
+    primary:#f06292
+    light-primary:#ff94c2
+    dark-primary:#ba2d65
+);
+@function color($colors-name){
+    @return map-get($colors, $colors-name);
+}
+$padding: 1.5rem;
+
+*/
+/*# sourceMappingURL=style.css.map */

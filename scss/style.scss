@@ -1,20 +1,15 @@
-$color:(
-    primary:#f06292
-    light-primary:#ff94c2
-    dark-primary:#ba2d65
-);
+@import "./variables";
+@import "./parent-1";
+@import "./child";
 
-@function color($colors-name){
-    @return map-get($colors, $colors-name);
-}
 
-.html{
+html{
     font-size: 100%;
     text-transform: uppercase;
     padding: 0rem;
     margin: 3rem auto;
 }
-
+/*
 .flex-parent-1{    
     flex-direction: column-reverse;
     justify-content: space-evenly;
@@ -24,3 +19,14 @@ $color:(
     margin: 25rem;
 
 }
+$color:(
+    primary:#f06292
+    light-primary:#ff94c2
+    dark-primary:#ba2d65
+);
+@function color($colors-name){
+    @return map-get($colors, $colors-name);
+}
+$padding: 1.5rem;
+
+*/
