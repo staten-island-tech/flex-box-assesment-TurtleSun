@@ -1,4 +1,8 @@
+@import "./variables";
+
 .flex-child{
-    margin: 25rem;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column-reverse;
 
 }

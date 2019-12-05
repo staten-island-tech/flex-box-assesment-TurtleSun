@@ -1,0 +1,26 @@
+@import "./variables";
+
+.flex-parent{    
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    display: flex;
+    border: 1rem, solid color(primary);
+    font-size: 3rem;
+}
+
+.flex-parent-2{
+    flex-direction: row;
+    display: flex;
+}
+
+.pic{
+    height: 25rem;
+    width: auto;
+}
+
+/*
+#Ann{
+    height: rem;
+    width: auto;
+}\
+*/
