@@ -1,8 +1,9 @@
 @import "./variables";
+@import "./section";
 
 .flex-parent{    
     flex-direction: row-reverse;
-    justify-content: space-evenly;
+    justify-content: center;
     display: flex;
     border: 1rem, solid color(primary);
     font-size: 3rem;
@@ -11,11 +12,13 @@
 .flex-parent-2{
     flex-direction: row;
     display: flex;
+    justify-content: flex-end;
 }
 
-.pic{
+.Pic{
     height: 25rem;
     width: auto;
+    border: 1rem, solid color(light-primary);
 }
 
 /*

@@ -3,6 +3,11 @@
 .flex-child{
     margin: 2rem;
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: row-reverse;
+    background: darkgrey;
+}
 
+.Pic2{
+    height: 50rem;
+    width: auto;
 }

@@ -1,4 +1,5 @@
 @import "./variables";
+@import "./section";
 @import "./parent";
 @import "./child";
 
@@ -8,6 +9,9 @@ html{
     text-transform: uppercase;
     padding: 0rem;
     margin: 3rem auto;
+}
+body{
+    background-image: linear-gradient (goldenrod, crimson, darkgrey);
 }
 /*
 .flex-parent-1{    

@@ -1,11 +1,51 @@
+.section {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1rem, solid #f06292;
+  font-size: 3rem;
+}
+
+.row-1 {
+  height: 80%;
+  width: auto;
+}
+
+.section {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1rem, solid #f06292;
+  font-size: 3rem;
+}
+
+.row-1 {
+  height: 80%;
+  width: auto;
+}
+
 .flex-parent {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: reverse;
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -21,11 +61,15 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
-.pic {
+.Pic {
   height: 25rem;
   width: auto;
+  border: 1rem, solid #ff94c2;
 }
 
 /*
@@ -39,10 +83,16 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: reverse;
-      -ms-flex-direction: column-reverse;
-          flex-direction: column-reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  background: darkgrey;
+}
+
+.Pic2 {
+  height: 50rem;
+  width: auto;
 }
 
 html {
@@ -50,6 +100,10 @@ html {
   text-transform: uppercase;
   padding: 0rem;
   margin: 3rem auto;
+}
+
+body {
+  background-image: linear-gradient goldenrod, crimson, darkgrey;
 }
 
 /*
