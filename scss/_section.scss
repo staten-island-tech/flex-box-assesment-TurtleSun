@@ -1,12 +1,17 @@
-.section{
-    flex-direction: row-reverse;
-    justify-content: center;
-    display: flex;
-    border: 1rem, solid color(primary);
-    font-size: 3rem;
-}
 
 .row-1{
+    justify-content: center;
+    display: flex;
     height: 80%;
     width: auto;
+}
+
+.row-2{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    width: 100%;
+    height: auto;
+    border: 3rem solid darkgrey;
+
 }
