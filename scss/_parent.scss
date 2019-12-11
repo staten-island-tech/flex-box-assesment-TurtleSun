@@ -10,9 +10,11 @@
 }
 
 .flex-parent-2{
-    flex-direction: column;
+    flex-direction: row;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    width: 100%;
+    border: 1rem solid darkgrey;
 }
 
 .Pic{
