@@ -5,8 +5,10 @@
     flex-direction: row-reverse;
     justify-content: center;
     display: flex;
-    border: 1rem, solid color(primary);
+    background-color: #21231D;
+    border: 1rem solid darkgrey;
     font-size: 3rem;
+    height: 50rem;
 }
 
 .flex-parent-2{
@@ -18,11 +20,18 @@
 }
 
 .Pic{
-    height: 25rem;
+    height: 50rem;
     width: auto;
     border: 2rem, solid color(light-primary);
 }
 
+.font{
+    font-family: 'Lilita One', cursive;
+}
+
+.pineapples{
+    font-size: 25rem;
+}
 /*
 #Ann{
     height: rem;

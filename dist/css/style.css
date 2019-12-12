@@ -5,8 +5,12 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 80%;
+  height: 100%;
   width: auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .row-2 {
@@ -16,9 +20,9 @@
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  font-size: 3rem;
   width: 100%;
   height: auto;
+  background-color: #292424;
 }
 
 .row-1 {
@@ -28,8 +32,12 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 80%;
+  height: 100%;
   width: auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .row-2 {
@@ -39,9 +47,9 @@
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  font-size: 3rem;
   width: 100%;
   height: auto;
+  background-color: #292424;
 }
 
 .flex-parent {
@@ -55,8 +63,10 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  border: 1rem, solid #f06292;
+  background-color: #21231D;
+  border: 1rem solid darkgrey;
   font-size: 3rem;
+  height: 50rem;
 }
 
 .flex-parent-2 {
@@ -75,9 +85,17 @@
 }
 
 .Pic {
-  height: 25rem;
+  height: 50rem;
   width: auto;
   border: 2rem, solid #ff94c2;
+}
+
+.font {
+  font-family: 'Lilita One', cursive;
+}
+
+.pineapples {
+  font-size: 25rem;
 }
 
 /*
@@ -117,12 +135,17 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-size: 3rem;
   width: 50%;
 }
 
 #text {
   margin: 3rem;
+  font-size: 3rem;
+  color: goldenrod;
+}
+
+#text-2 {
+  color: #292424;
 }
 
 html {
