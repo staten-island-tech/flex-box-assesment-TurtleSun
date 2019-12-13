@@ -1,7 +1,7 @@
 .row-1 {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -26,9 +26,9 @@
 }
 
 .row-1 {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -63,7 +63,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: #21231D;
+  background-color: white;
   border: 1rem solid darkgrey;
   font-size: 3rem;
   height: 50rem;
@@ -92,10 +92,15 @@
 
 .font {
   font-family: 'Lilita One', cursive;
+  font-size: 5rem;
+  margin-left: 10rem;
+  padding: 2rem;
+  color: whitesmoke;
 }
 
 .pineapples {
   font-size: 25rem;
+  margin: 5rem;
 }
 
 /*
@@ -139,7 +144,7 @@
 }
 
 #text {
-  margin: 3rem;
+  margin: 10rem;
   font-size: 3rem;
   color: goldenrod;
 }

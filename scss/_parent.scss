@@ -5,7 +5,7 @@
     flex-direction: row-reverse;
     justify-content: center;
     display: flex;
-    background-color: #21231D;
+    background-color: white;
     border: 1rem solid darkgrey;
     font-size: 3rem;
     height: 50rem;
@@ -27,10 +27,15 @@
 
 .font{
     font-family: 'Lilita One', cursive;
+    font-size: 5rem;
+    margin-left: 10rem;
+    padding: 2rem;
+    color: whitesmoke;
 }
 
 .pineapples{
     font-size: 25rem;
+    margin: 5rem;
 }
 /*
 #Ann{
