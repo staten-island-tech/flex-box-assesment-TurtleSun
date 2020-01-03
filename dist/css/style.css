@@ -85,22 +85,22 @@
 }
 
 .Pic {
-  height: 50rem;
+  height: 15rem;
   width: auto;
   border: 2rem, solid #ff94c2;
 }
 
 .font {
   font-family: 'Lilita One', cursive;
-  font-size: 5rem;
+  font-size: 1.5rem;
   margin-left: 10rem;
   padding: 2rem;
   color: whitesmoke;
 }
 
 .pineapples {
-  font-size: 25rem;
-  margin: 5rem;
+  font-size: 6rem;
+  margin: 3rem;
 }
 
 /*
@@ -124,7 +124,7 @@
 }
 
 .Pic2 {
-  height: 50rem;
+  height: 15rem;
   width: auto;
   border: darkgrey;
 }
@@ -145,7 +145,7 @@
 
 #text {
   margin: 10rem;
-  font-size: 3rem;
+  font-size: .8rem;
   color: goldenrod;
 }
 
